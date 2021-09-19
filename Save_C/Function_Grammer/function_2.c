@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 double CelToFah(double Cel)
 {
 	return 1.8*Cel+32;
@@ -33,3 +33,4 @@ int main(void)
 	}
 	
 	return 0;
+}
