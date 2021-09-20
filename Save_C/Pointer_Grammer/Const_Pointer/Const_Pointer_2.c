@@ -7,11 +7,12 @@ void ShowData(const int * ptr) //매개변수 const가 선언
 	* rptr = 20; //갑자기 20으로 바꾸면, const를 선언한거 자체가 의미없어짐
 }
 
+
 int main(void)
 {
 	int num = 10;
 	int * ptr = &num;
-	ShowData(ptr);
+	//ShowData(ptr);
 	
 	return 0;
 }
