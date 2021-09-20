@@ -19,6 +19,7 @@ int main(void)
 			min = arr[j];
 	}
 	
+	
 	printf("%d %d\n", min, max);
 	return 0;
 }
