@@ -13,7 +13,10 @@ int Prime_num(int N)
 int main(void)
 {
 	int M = 0, N = 0, Num = 0, Sum = 0, Min = 0;
-	scanf("%d %d", &M, &N);
+	scanf("%d", &M);
+	scanf("%d", &N);
+
+	
 	Num = N - M + 1;
 	int arr[Num];
 	
@@ -21,6 +24,7 @@ int main(void)
 	{
 		arr[i] = M;
 		M++;
+		
 		if(Prime_num(arr[i]) == 1)
 			Sum += arr[i];
 		else
@@ -39,7 +43,10 @@ int main(void)
 	if(Min == 0)
 		printf("-1");
 	else
-		printf("%d\n%d\n", Sum, Min);
+	{
+		printf("%d\n", Sum);
+		printf("%d", Min);
+	}
 	
 	return 0;
 }
