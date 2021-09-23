@@ -7,9 +7,7 @@ int main(void)
 	
 	while(N > 1)
 	{
-		int Mod = 0;
-		Mod = N % i;
-		if(Mod == 0)
+		if(N % i == 0)
 		{
 			printf("%d\n", i);
 			N /= i;
@@ -17,7 +15,5 @@ int main(void)
 		else
 			i++;
 	}
-	
-	
 	return 0;
 }
