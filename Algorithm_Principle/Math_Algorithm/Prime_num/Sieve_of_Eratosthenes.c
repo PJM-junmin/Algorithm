@@ -16,14 +16,11 @@ void primeNumberSieve()
 			{
 				a[j] = 0;
 			}
-		
 		}
-	 for(int i = 2; i <= number; i++)
-		 if(a[i] != 0) // 0이 아닌 수는 소수임
-			 printf("%d ", a[i]);
 	}
-	
-	
+	for(int i = 2; i <= number; i++)
+		if(a[i] != 0) // 0이 아닌 수는 소수임
+			 printf("%d ", a[i]);
 }
 
 //Aratosthenes의 체는 소수 판별 알고리즘이다. 
