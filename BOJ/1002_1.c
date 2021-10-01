@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 //부동소수점 sqrt 함수 때문에 틀림, 오차 생겨서..
 int main(void)
