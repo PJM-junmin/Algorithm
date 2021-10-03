@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+int main(void)
+{
+	int arr[2][2][2] = {1, 2, 3, 4, 5, 6, 7, 8};
+	printf("%d \n", arr[1][0][1]);
+	
+	/*
+	printf("%d \n", (*(arr + 1))[0][1]);
+	printf("%d \n", (*(*(arr + 1) + 0))[1]);
+	printf("%d \n", *(*(*(arr + 1) + 0) + 1));
+	printf("%d \n", (*(arr[1] + 0))[1]);
+	printf("%d \n", *(*(arr[1] + 0) + 1));
+	printf("%d \n", *(arr[1][0] + 1));
+	%위 문장과 모두 같은 문장
+	*/
+	
+	return 0;
+}
+
