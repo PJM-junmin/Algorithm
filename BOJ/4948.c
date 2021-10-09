@@ -21,7 +21,7 @@ int main(void)
 		{
 			for(int j = 2 * i; j <= 2 * n; j += i)
 			{
-				if(arr[j] == 0);
+				if(arr[j] == 0)
 					arr[j] = 1;
 			}
 		}
